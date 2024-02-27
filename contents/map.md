@@ -5,7 +5,7 @@ In Simple word "Transformation" means -- transform each value of the array and g
 
 Example: 
 ```
-
+//Double the nums element
 const doubleArr = num.map(double);
 let nums = [1, 2, 3, 4, 5];
 function double(nums) {
