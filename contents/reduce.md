@@ -53,6 +53,24 @@ const output = nums.reduce(function(acc, curr) {
     return acc; // Returning the updated accumulated sum
 });
 console.log(output); // Output: 55
+```
 
+```js
+const users = [
+    { firstName: "John", lastName: "Doe", age: 30 },
+    { firstName: "Jane", lastName: "Doe", age: 25 },
+    { firstName: "Alice", lastName: "Smith", age: 30 },
+    { firstName: "Bob", lastName: "Johnson", age: 25 }
+];
 
+const output = users.reduce(function(acc, curr) {
+    if (acc[curr.age]) {
+        acc[curr.age] = ++acc[curr.age]; // Increment count if age already exists in accumulator
+    } else {
+        acc[curr.age] = 1; // Initialize count to 1 if age is encountered for the first time
+    }
+    return acc; // Return accumulator in each iteration
+}, {});
+
+console.log(output);
 ```
