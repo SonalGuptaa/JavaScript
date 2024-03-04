@@ -1,5 +1,5 @@
 
-JavaScript is a synchronous, single-threaded language, managing tasks within one call stack, thus executing one task at a time for efficient processing."
+`JavaScript` is a synchronous, single-threaded language, managing tasks within one call stack, thus executing one task at a time for efficient processing.
 Whatever code we give to Javascript will be quickly executed by Javascript engine, it does not wait.
 
 ```js
