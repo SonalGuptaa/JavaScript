@@ -1,3 +1,15 @@
+
+`Promise` is an object that represent eventual completion of async operation.
+
+In `Promise` we are attaching callback function to a  promise object.
+
+State of promise : tells in which state promise is
+
+1)pending state     
+2)fullfill state      
+3)rejected state
+
+Promise Result : hold the data
 ```js
 const place = ["Dublin" , "London" . "Switzerland"];
 
