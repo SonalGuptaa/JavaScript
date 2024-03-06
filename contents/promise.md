@@ -3,9 +3,8 @@ const place = ["Dublin" , "London" . "Switzerland"];
 
  //create a booking id
  //proceedToPayment is pass as  a callback fucntion
-createBooking(place,function(){
-    proceedToPayment(bookingId)
-})
+
+//createBooking api creates a promise object and return it
 const promise = createBooking(place);
 
 promise.then(function(){
