@@ -9,4 +9,4 @@ swapKth(n, k, arr) {
     arr[k-1] = t2;
     arr[n-k] = t1;
 }
-}
+
