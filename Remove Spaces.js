@@ -1,8 +1,6 @@
 class Solution{
     modify(s){
-        //code here
         
-        // let temp = '';\
         let result = [];
         let n= s.length;
         for(let i=0;i<n;i++)
